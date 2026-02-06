@@ -27,7 +27,7 @@ print("Answer 4:" ,v1 ,v2)
 num = int(input("Enter number: "))
 squ = num * num
 cube = num * num * num
-print("Answer 5: The square of" ,num "is:" ,squ "and it's cube is:" ,cube)
+print("Answer 5: The square and cube of the number is:" ,squ ,cube)
 # 7. Calculate Total and Average of 3 Marks
 # 8. Convert Minutes to Seconds
 # 9. Calculate GST Amount: price + 18%
