@@ -23,15 +23,34 @@ v1 = v2
 v2 = temp
 print("Answer 4:" ,v1 ,v2)
 # 5. Convert Celsius to Fahrenheit: F = (C * 9/5) + 32
+cel = int(input("Enter you number in celsius: "))
+fah = (cel * 9/5) + 32
+print(cel, "celsius in Fahrenheit is:" , fah)
 # 6. Calculate Square and Cube of a Number
 num = int(input("Enter number: "))
-squ = num * num
-cube = num * num * num
-print("Answer 5: The square and cube of the number is:" ,squ ,cube)
+squ = num ** 2
+cube = num ** 3
+print("Answer 5: The square of the number is:" ,squ, "and the cube is:" ,cube)
 # 7. Calculate Total and Average of 3 Marks
+mathm = int(input("Enter number of marks recieved in Math: "))
+scim = int(input("Enter number of marks recieved in Science: "))
+csm = int(input("Enter number of marks recieved in Coumpter Science: "))
+ave = (mathm + scim + csm) / 2
+tot = mathm + scim + csm
+print("The average is:" ,ave, "and the total is:" ,tot)
 # 8. Convert Minutes to Seconds
+mins = int(input("Enter minutes: "))
+secs = mins * 60
+print(mins, "minutes in seconds is:" ,secs)
 # 9. Calculate GST Amount: price + 18%
+price = int(input("Enter price: "))
+gst = price * 0.18
+print("The GST amount of" ,price, "is" ,gst)
 # 10. Area of Circle: π * r * r
+r = int(input("Enter raduis of circle: "))
+pi = 3.14159265359
+area = pi * r * r
+print("The area of the circle is:" ,area)
 
 #11. Compound Interest: A = P (1 + r/100)^t
 #12. BMI Calculator: weight / (height * height)
